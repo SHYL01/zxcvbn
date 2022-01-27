@@ -415,15 +415,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
         if (mode === MODE_ENDLESS) {
             if (score <= 5) return '试着好好练一下？';
-            if (score <= 8) return 'TCL';
-            if (score <= 10)  return 'TQL';
-            if (score <= 15) return '您';
+            if (score <= 8) return '笑死我了';
+            if (score <= 10)  return '这个人就是逊纳';
+            if (score <= 15) return '逊爆了';
             return '人？';
         } else {
-            if (score <= 49) return '试着好好练一下？';
-            if (score <= 99) return 'TCL';
-            if (score <= 149) return 'TQL';
-            if (score <= 199) return '您';
+            if (score <= 49) return '小菜鸡';
+            if (score <= 99) return '蒸鸭脚本尊？';
+            if (score <= 149) return '人？';
+            if (score <= 199) return '人？';
             return '人？';
         }
     }
